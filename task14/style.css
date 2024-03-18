@@ -1,0 +1,43 @@
+@font-face {
+  font-family: kodeMono;
+  src: url("KodeMono-VariableFont_wght.ttf");
+}
+*{
+  padding: 0;
+  margin: 0;
+}
+body{
+  font-family: "KodeMono";
+}
+h1{
+  padding: 20px;
+  max-width: 80%;
+}
+.fa-hand-o-right{
+  padding: 20px;
+  margin-bottom: 40px;
+}
+.visit-website{
+  margin-left: 20px;
+}
+.icon-bar{
+  max-width: 100%;
+  font-size: 15px;
+  display: flex;
+  justify-content: space-between;
+  background-color: rgb(203, 203, 203);
+  margin: 20px 20px 0 20px;
+}
+.socialmedia-icon-box{
+  padding: 20px;
+  transition: .3s;
+}
+.socialmedia-icon-box i{
+  padding: 10px;
+}
+.socialmedia-icon-box a{
+text-decoration: none;
+}
+.socialmedia-icon-box:hover{
+  background-color: rgb(145, 142, 142) ;
+}

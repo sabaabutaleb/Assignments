@@ -1,0 +1,19 @@
+.container{
+  display: flex;
+  border: 3px solid rgb(31, 3, 57);
+  margin-top: 30px;
+}
+.children{
+  height: 200px;
+  width: 200px;
+  background-color: blueviolet;
+  margin: 10px;
+
+}
+button{
+  background-color: rgb(58, 21, 93);
+  color: white;
+  height: 20px;
+  width: 100px;
+
+}

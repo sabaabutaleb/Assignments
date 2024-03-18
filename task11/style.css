@@ -1,0 +1,44 @@
+*{
+  padding: 0;
+  margin: 0;
+
+}
+table{
+  padding:30px;
+  margin: auto;
+}
+th{
+  background-color: rgb(40, 36, 36);
+  color: white;
+}
+th,td{
+  padding: 10px;
+  border: 1px solid ;
+}
+.buttons{
+  max-width: 70%;
+  margin-left: 200px;
+  margin-top: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+
+}
+button{
+  margin: 0;
+  width: 200px;
+  height: 40px;
+  font-size: 1.2rem;
+  font-weight: 700;
+}
+.odd{
+  background-color:gray;
+}
+/* .row:nth-child(odd){
+  background-color: gray;
+}
+.row:nth-child(even){
+  background-color: gray;
+} */
+
+

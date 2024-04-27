@@ -38,13 +38,13 @@ export default function Container() {
         className="image-box"
         src="Images/M_img_2.png"
         alt="sewa "
-        name="تبادل>هيئة كهرباء ومياه الشارقة SEWA"
+        name="تبادل هيئة كهرباء ومياه الشارقة SEWA"
       />
       <Item
         className="image-box"
         src="Images/M_img_1.png"
         alt="baladeyet ashareqa "
-        name="بلدية الشارقة</"
+        name="بلدية الشارقة"
       />
     </div>
   );

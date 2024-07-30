@@ -20,12 +20,14 @@ async function fetchData() {
   });
   console.log(res);
   if (res.status == 200) {
-    window.location.href = `http://127.0.0.1:3000/informationPage.html`;
     welcomLetter.textContent = `Hello ${emailInput.value}`;
+    const data = await res.json();
+    console.log(data.token);
+    localStorage.setItem("token", data.token);
+    window.location.href = `http://127.0.0.1:3000/informationPage.html`;
   }
-  const data = await res.json();
-  console.log(data);
 }
+//Using promise
 // function fetchData() {
 //   fetch(`https://reqres.in/api/login`, {
 //     method: "POST",
@@ -47,7 +49,7 @@ function CheckCredentials() {
   const email = emailInput.value;
   const password = passwordInput.value;
   if (email === User.email && password === User.password) {
-    welcomLetter.textContent = `Hello ${email}`;
+    // welcomLetter.textContent = `Hello ${email}`;
     fetchData();
   } else welcomLetter.textContent = "Invalid credentials";
 }

@@ -1,0 +1,118 @@
+/* login form */
+.login-form {
+  width: 80%;
+  border: 2px solid #009879;
+  border-collapse: collapse;
+  font-size: 0.9em;
+  font-family: sans-serif;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+}
+.container {
+  text-align: center; /* Centers inline-block elements */
+}
+
+.card {
+  /* margin-top: 8em; */
+
+  display: inline-block;
+  margin: auto; /* Centers horizontally */
+  width: 300px;
+  height: 200px;
+  border: 1px solid #ccc;
+}
+.bi-eye-fill,
+.bi-eye-slash-fill {
+  margin-left: 1em;
+  font-size: 1.3em;
+  color: #009879;
+}
+.btn-login {
+  width: 10em;
+}
+.collage-title {
+  margin-top: 0;
+}
+
+div {
+  padding: 10px;
+  margin: 10px;
+}
+.form-label {
+  /* background-color: #009879; */
+  /* color: #ffffff; */
+  text-align: left;
+  margin-right: 15px;
+  width: 6.5em;
+  margin-left: 1em;
+  line-height: 3em;
+}
+input,
+.form-label {
+  padding: 1px;
+  border-radius: 2px;
+}
+.grid {
+  display: grid;
+  height: 100vh;
+  /* place-items: center; */
+  grid-template-columns: 1fr 1fr; /* Creates a 2-column grid */
+}
+body {
+}
+.registration-img {
+  /* height: 100vh; */
+  width: 100%;
+}
+
+.img-fluid {
+  height: 100vh;
+  /* max-width: 100%; */
+  margin-left: 5em;
+}
+.info-card {
+  margin-right: 5em;
+}
+h1 {
+  text-align: center;
+  background-color: #009879;
+  color: #ffffff;
+  padding: 0.5em;
+  margin: 0;
+}
+input,
+select {
+  font-size: 1rem;
+  line-height: 2.15;
+  padding-left: 0.75em;
+  padding-right: 0.75em;
+}
+select {
+  margin-left: 4em;
+}
+.row {
+  display: flex;
+  margin: 1em;
+}
+.btn {
+  width: 10em;
+  align-content: center;
+  background-color: #009879;
+  color: #ffffff;
+  padding: 15px;
+  text-align: center;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+  border-collapse: collapse;
+  border-radius: 20px;
+  border-color: #ffffff;
+  font-weight: bolder;
+}
+.btn-row {
+  justify-content: space-evenly;
+}
+.reset-btn {
+  background-color: #ffffff;
+  color: #009879;
+}
+a {
+  margin: 2em;
+}
